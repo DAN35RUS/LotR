@@ -66,8 +66,8 @@ a {
 }
 @media (max-width: 1500px) {
     .text {
-        max-width: 700px;
-        margin-left: 17%;
+        max-width: 800px;
+        margin-left: 10%;
         border-radius: 7px;
         padding-left: 30px;
         padding-right: 30px;
@@ -84,12 +84,18 @@ a {
 
     }
     .navigation {
-        max-width: 250px;
+        max-width: 220px;
         position:fixed;
-        right: 0;
-        background-color: rgba(19, 17, 17, 0.767);
+        right: 0.5%;
         bottom: 75%;
         border-radius: 10px;
         font-family: 'Roboto', sans-serif;
+    }
+    .up {
+        bottom: 10%;
+        right: 6%;
+    }
+    h2 {
+        font-weight: 400;
     }
 }
