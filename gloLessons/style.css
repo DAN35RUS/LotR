@@ -1,15 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body {
     margin: 0;
     background: url(https://avatars.mds.yandex.net/get-kinopoisk-post-img/2268018/8f704b6f512349a8cec9a93878489f85/orig) no-repeat fixed;
-
 }
 *body {
     font-family: roboto;
 }
+.boock {
+    display: flex;
+}
+.left-size {
+    width: 15%;
+}
+.center-size {
+    width: 70%;
+    display: flex;
+    text-align: center;
+}
+.right-size {
+    width: 15%;
+}
 .text {
-    max-width: 65%;
+    width: 100%;
     background: rgba(245, 236, 236, 0.8);
-    margin-left: 17%;
     border-radius: 7px;
     padding-left: 50px;
     padding-right: 50px;
@@ -43,11 +59,12 @@ a {
 }
 .up {
     width: 80px;
-    bottom: 5%;
     position:fixed;
+    top: 50%;
     right: 5%;
     filter:brightness(0) invert(1);
     opacity: .3;
+
 }
 .up:hover {
     opacity: 1;
@@ -55,16 +72,9 @@ a {
 .up:active {
     width: 75px;
 }
-.navigation {
-    background-color: rgba(255, 255, 255, 0.767);
-    max-width: 250px;
-    position:fixed;
-    right: 1%;
-    bottom: 75%;
-    border-radius: 10px;
-    font-family: 'Roboto', sans-serif;
-}
-@media (max-width: 1500px) {
+
+
+/* @media (max-width: 1500px) {
     .text {
         max-width: 800px;
         margin-left: 10%;
@@ -81,15 +91,7 @@ a {
         justify-content: flex-start;
         font-size: 0.86em;
         flex-wrap: wrap;
-
-    }
-    .navigation {
-        max-width: 220px;
-        position:fixed;
-        right: 0.5%;
-        bottom: 75%;
-        border-radius: 10px;
-        font-family: 'Roboto', sans-serif;
+        
     }
     .up {
         bottom: 10%;
@@ -98,4 +100,4 @@ a {
     h2 {
         font-weight: 400;
     }
-}
+} */
